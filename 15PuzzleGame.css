@@ -1,0 +1,38 @@
+label {
+	margin : 10px;
+	display : inline-block;
+	width : 40px;
+	height : 40px;
+	font : 30px bold;
+	transition : background-color  500ms, box-shadow 500ms, opacity 300ms, border 200ms;
+	padding: 10px;
+	text-align : center;
+	border: 1px solid black;
+	border-radius : 10px;
+}
+
+label:hover{
+	box-shadow : gray 3px 5px;
+	border : 1px solid red;
+	border-bottom : 5px solid red;
+	transition : border 200ms;
+}
+
+button {
+	width : 120px;
+	height : 60px;
+	outline : 0;
+	margin : 10px;
+	font : 30px italic;
+	border: 0;
+	transition: box-shadow 1s;
+}
+
+button:hover {
+	box-shadow: 2px 3px gray;
+	transition: box-shadow 1s;
+}
+
+button:active{
+	box-shadow: 0px 0px;
+}
